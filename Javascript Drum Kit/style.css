@@ -3,6 +3,8 @@
 html {
     background: url(images/drums.jpg) bottom center;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 body, html {
@@ -80,4 +82,26 @@ kbd {
     text-transform: uppercase;
     letter-spacing: .1rem;
     color: orange;
+}
+
+/* ----making the site responsive--- */
+@media(max-width: 480px) {
+   html {
+    background: url(images/studio.jpg) bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+   }
+
+   .keys {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 30vh;
+   }
+
+   .key {
+    font-size: 0.5rem;
+   }
+
 }
