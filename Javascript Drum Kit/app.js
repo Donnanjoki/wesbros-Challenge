@@ -41,3 +41,10 @@ function playSound(e) {
 for (let i=0, key; key = keys[i]; i++) {
     key.addEventListener('click', playSound);
 }
+
+//notes
+// picked up this solution for adding click functionality
+// from stack overflow https://stackoverflow.com/questions/52067017/drumkit-keydown-works-but-not-clicks
+// well there is no need to redeclare const keys again as I noted it disables the keyboard functionality.
+// Also no need to include the the transitioned part (makes no difference as noted)
+
