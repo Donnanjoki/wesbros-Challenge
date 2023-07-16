@@ -14,3 +14,5 @@ setInterval(() => {
   mn.style.transform = `rotateZ(${mm}deg)`;
   sc.style.transform = `rotateZ(${ss}deg)`;
 }, 1000);
+
+//digital clock
